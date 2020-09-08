@@ -19,6 +19,7 @@ from config import config, IP
 
 def start():
     ip = IP
+    sip = IP
     port = config.get('spider').get('service_port')
 
     print("温馨提示：服务IP {} 端口 {} 请确保代理已配置".format(ip, port))
